@@ -1,0 +1,134 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+
+        //Q1 .Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2
+
+//        int [] element={50 ,-20 ,0 , 30 , 40 , 60 , 10 };
+//       if(element.length>=2 && element[0]==element[6]) {
+//           System.out.println("true");
+//      }
+//       else {
+//           System.out.println("false");
+//       }
+
+        // Q2 .Write a Java program to find the k largest elements in a given array. Elements in the array can be in any order.
+//        Integer number[] = new Integer[]{1, 4, 17, 7, 25, 3, 100};
+//        int k = 3;
+//        int last=number.length-1; // عشان ياخذها من الاصغير الى الاكبر
+//        System.out.println(k +" largest elements of the said array are:");
+//
+//        Arrays.sort(number, Collections.reverseOrder());
+//        for (int i = 0; i < k; i++)
+//            System.out.print(number[i] + " ");
+
+
+
+        // Q3 . Write a Java program to find the numbers greater than the average of the numbers of a given array.
+//        int [] num={1, 4, 17, 7, 25, 3, 100};
+//        int sum=0;
+//
+//        for(int i = 0; i < num.length; i++) {
+//            sum= sum + num [i];
+//        }
+//        double average =sum / num.length;
+
+//        System.out.println("The average of the said array is:"+ average);
+//        System.out.println("The numbers in the said array that are greater than the average are: ");
+//
+//        for (int i=0; i<=num.length ;i++){
+//            if (num[i]> average){
+//                System.out.println(num[i]);
+//            }
+//        }
+
+        // Q4. Write a Java program to get the larger value between first and last element of an array of integers.
+
+//        int [] num={20, 30, 40};
+//        int larger ;
+//        larger=num[0];
+//        if(num[2]>=larger){
+//            System.out.println("Larger value between first and last element: "+ num[2]);
+//        }
+
+        // Q5.Write a Java program to swap the first and last elements of an array and create a new array.
+//        ArrayList<Integer> num =  new ArrayList<>();
+//
+//        num.add(20);
+//        num.add(30);
+//        num.add(40);
+//        System.out.println(num);
+//
+//        Integer element1 = num.get(0);
+//        Integer element2 = num.get(2);
+//
+//        num.set(0,element2);
+//        num.set(2,element1);
+//
+//        System.out.println("New array after swapping the first and last elements: "+ num );
+
+
+        //  Q6.Write a Java program to find all of the longest word in a given dictionary.
+//        String[] word = { "cat", "dog", "red", "is", "am"};
+//        for (String A : word ){
+//                System.out.println(A);
+//            }
+
+//          Q7 ماعرف احله وما ابي انسخ الحل من اي مكان والصقه بدون فائدة اتمنى تشرحينه بكره لنا
+        
+        
+        //Q8.Write a program thats displays the number of occurrences of an element in the array.
+
+//        int[] arr = new int[]{1, 1, 1, 3, 3, 5};
+//        int[] visitedarr = new int[arr.length];
+//        int visited = -1;
+//
+//        for (int i = 0; i < arr.length; i++) {
+//             int count=1;
+//            for (int j = i + 1; j < arr.length; j++) {
+//                if (arr[i] == arr[j]) {
+//                    count++;
+//                    visitedarr[j] = visited;
+//                }
+//            }
+//            if (visitedarr[i] != visited) {
+//                visitedarr[i] = count;
+//            }
+//        }
+//        for (int i = 0; i < visitedarr.length; i++) {
+//            if (visitedarr[i] != visited) {
+//                System.out.println(arr[i] + " occurs " + visitedarr[i] + " times");
+//            }
+//        }
+
+
+
+        // Q9 Write a program that places the odd elements of an array before the even elements.
+
+//        int a[]={2, 3, 40, 1, 5, 9, 4, 10, 7};
+//        System.out.println("Odd Numbers:");
+//        for(int i=0;i<a.length;i++){
+//            if(a[i]%2!=0) {
+//                System.out.println(a[i]);
+//            }
+//        }
+//        for(int i=0;i<a.length;i++){
+//            if(a[i]%2==0) {
+//                System.out.println(a[i]);
+//            }
+//        }
+
+
+
+
+//Q10 . Write a program that test the equality of two arrays.
+//
+//        int [] arr1 = new int [] {2, 3, 6, 6, 4};
+//        int [] arr2 = new int [] {2, 3, 6, 6, 4};
+//        System.out.println(Arrays.equals(arr1, arr2));
+    }
+}
